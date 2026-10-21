@@ -1,10 +1,10 @@
 **-- 1. Customers**
-CREATE TABLE customers (
-    customer_id INT PRIMARY KEY AUTO_INCREMENT,
-    customer_name VARCHAR(100) NOT NULL,
-    city VARCHAR(50),
-    signup_date DATE
-);
+CREATE TABLE customers (<br>
+    customer_id INT PRIMARY KEY AUTO_INCREMENT,<br>
+    customer_name VARCHAR(100) NOT NULL,<br>
+    city VARCHAR(50),<br>
+    signup_date DATE<br>
+);<br>
 
 **-- 2. Restaurants**
 CREATE TABLE restaurants (
