@@ -1,4 +1,4 @@
-**-- 1. Customers**
+**1. Customers**
 CREATE TABLE customers (<br>
     customer_id INT PRIMARY KEY AUTO_INCREMENT,<br>
     customer_name VARCHAR(100) NOT NULL,<br>
