@@ -78,20 +78,17 @@ CREATE TABLE order_items (<br>
     CONSTRAINT chk_unit_price CHECK (unit_price >= 0)<br>
     );<br>
 
-7. Payments<br>
+**7. Payments**<br>
 CREATE TABLE payments (<br>
     payment_id INT PRIMARY KEY AUTO_INCREMENT,<br>
     order_id INT NOT NULL UNIQUE,<br>
     payment_method VARCHAR(30) NOT NULL,<br>
     payment_amount DECIMAL(10,2) NOT NULL,<br>
     payment_status VARCHAR(20) NOT NULL,<br>
-
     FOREIGN KEY (order_id)<br>
         REFERENCES orders(order_id),<br>
-
     CONSTRAINT chk_payment_amount<br>
         CHECK (payment_amount >= 0),<br>
-
     CONSTRAINT chk_payment_status CHECK (<br>
         payment_status IN (<br>
             'Successful',<br>
