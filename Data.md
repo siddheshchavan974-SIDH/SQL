@@ -98,3 +98,7 @@ CREATE TABLE payments (<br>
    );<br>
 
 
+**Understand the business metrics**
+
+            **Metric**            |            **Business meaning**            |            **Formula**            
+
