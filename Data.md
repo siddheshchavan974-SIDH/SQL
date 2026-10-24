@@ -104,4 +104,6 @@ CREATE TABLE payments (<br>
 |----------------------------------|--------------------------------------------|-----------------------------------|
 |        Total orders              |            Number of orders placed         |        COUNT(Order_ID)            |
 |        Delivered Orders          |        Orders successfully delivered       |    COUNT(Order_ID) WHERE Order_Status = 'Delivered'|
+|  Total revenue                   |Value of food sold through delivered orders |SUM(Quantity * Unit_Price) for delivered orders|
+
 
