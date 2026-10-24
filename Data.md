@@ -48,16 +48,12 @@ CREATE TABLE orders (<br>
     order_status VARCHAR(20) NOT NULL,<br>
     delivery_fee DECIMAL(10,2) DEFAULT 0,<br>
     cancellation_reason VARCHAR(255),<br>
-
     FOREIGN KEY (customer_id)<br>
         REFERENCES customers(customer_id),<br>
-
     FOREIGN KEY (restaurant_id)<br>
         REFERENCES restaurants(restaurant_id),<br>
-
     FOREIGN KEY (partner_id)<br>
         REFERENCES delivery_partners(partner_id),<br>
-
     CONSTRAINT chk_order_status CHECK (<br>
         order_status IN (<br>
             'Delivered',<br>
@@ -66,7 +62,6 @@ CREATE TABLE orders (<br>
             'Out for Delivery'<br>
         )<br>
     ),<br>
-
     CONSTRAINT chk_delivery_fee CHECK (delivery_fee >= 0)<br>
 );<br>
 
