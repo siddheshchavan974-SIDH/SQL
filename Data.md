@@ -59,9 +59,7 @@ CREATE TABLE orders (<br>
             'Delivered',<br>
             'Cancelled',<br>
             'Preparing',<br>
-            'Out for Delivery'<br>
-        )<br>
-    ),<br>
+            'Out for Delivery')),<br>
     CONSTRAINT chk_delivery_fee CHECK (delivery_fee >= 0)<br>
 );<br>
 
