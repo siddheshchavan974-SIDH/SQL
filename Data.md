@@ -15,7 +15,7 @@ CREATE TABLE restaurants (<br>
     opening_date DATE<br>
 );<br>
 
-**3. Menu items**<br>
+**3. Menu items** <br>
 CREATE TABLE menu_items (<br>
     item_id INT PRIMARY KEY AUTO_INCREMENT,<br>
     restaurant_id INT NOT NULL,<br>
@@ -24,8 +24,9 @@ CREATE TABLE menu_items (<br>
     price DECIMAL(10,2) NOT NULL,<br>
     is_available BOOLEAN DEFAULT TRUE,<br>
     CONSTRAINT chk_item_price CHECK (price >= 0),<br>
+      
     FOREIGN KEY (restaurant_id)<br>
-        REFERENCES restaurants(restaurant_id)<br>
+    REFERENCES restaurants(restaurant_id)<br>
 );<br>
 
 **4. Delivery partners**<br>
