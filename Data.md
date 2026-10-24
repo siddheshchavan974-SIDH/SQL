@@ -102,8 +102,13 @@ CREATE TABLE payments (<br>
 
 |            **Metric**            |            **Business meaning**            |            **Formula**            |
 |----------------------------------|--------------------------------------------|-----------------------------------|
-|        Total orders              |            Number of orders placed         |        COUNT(Order_ID)            |
+|        Total Orders              |            Number of orders placed         |        COUNT(Order_ID)            |
 |        Delivered Orders          |        Orders successfully delivered       |    COUNT(Order_ID) WHERE Order_Status = 'Delivered'|
-|  Total revenue                   |Value of food sold through delivered orders |SUM(Quantity * Unit_Price) for delivered orders|
+|  Total Revenue                   |Value of food sold through delivered orders |SUM(Quantity * Unit_Price) for delivered orders|
+|Average Order Value (AOV)         |Food revenue divided by delivered orders    |Total Revenue / Delivered Orders    |
+|Cancellation Rate                 |Cancelled orders divided by all orders      |(Cancelled Orders / Total Orders) * 100|
+|Average Delivery Time             |Average time from order placement to delivery|AVG(Delivery_Time - Order_Time) for delivered orders|
+|Late Delivery Rate                |Delivered orders arriving after the promised time|(Late Delivered Orders / Total Delivered Orders) * 100|
+|Repeat Customer Rate              |Customers who placed more than one order    |(Customers with More Than One Order / Total Customers) * 100|
 
 
