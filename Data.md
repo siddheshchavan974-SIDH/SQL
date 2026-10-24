@@ -6,11 +6,11 @@ CREATE TABLE customers (<br>
     signup_date DATE<br>
 );<br>
 
-**-- 2. Restaurants**
-CREATE TABLE restaurants (
-    restaurant_id INT PRIMARY KEY AUTO_INCREMENT,
-    restaurant_name VARCHAR(100) NOT NULL,
-    cuisine VARCHAR(50),
-    city VARCHAR(50),
-    opening_date DATE
-);
+**-- 2. Restaurants**<br>
+CREATE TABLE restaurants (<br>
+    restaurant_id INT PRIMARY KEY AUTO_INCREMENT,<br>
+    restaurant_name VARCHAR(100) NOT NULL,<br>
+    cuisine VARCHAR(50),<br>
+    city VARCHAR(50),<br>
+    opening_date DATE<br>
+);<br>
