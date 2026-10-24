@@ -102,5 +102,6 @@ CREATE TABLE payments (<br>
 
 |            **Metric**            |            **Business meaning**            |            **Formula**            |
 |----------------------------------|--------------------------------------------|-----------------------------------|
-|
+|        Total orders              |            Number of orders placed         |        COUNT(Order_ID)            |
+|        Delivered Orders          |        Orders successfully delivered       |    COUNT(Order_ID) WHERE Order_Status = 'Delivered'|
 
