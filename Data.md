@@ -25,7 +25,7 @@ CREATE TABLE menu_items (<br>
     is_available BOOLEAN DEFAULT TRUE,<br>
     CONSTRAINT chk_item_price CHECK (price >= 0),<br>
       
-    FOREIGN KEY (restaurant_id)<br>
+FOREIGN KEY (restaurant_id)<br>
     REFERENCES restaurants(restaurant_id)<br>
 );<br>
 
