@@ -100,5 +100,7 @@ CREATE TABLE payments (<br>
 
 **Understand the business metrics**
 
-            **Metric**            |            **Business meaning**            |            **Formula**            
+|            **Metric**            |            **Business meaning**            |            **Formula**            |
+|----------------------------------|--------------------------------------------|-----------------------------------|
+|
 
