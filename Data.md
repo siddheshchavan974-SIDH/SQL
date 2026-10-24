@@ -111,4 +111,6 @@ CREATE TABLE payments (<br>
 |Late Delivery Rate                |Delivered orders arriving after the promised time|(Late Delivered Orders / Total Delivered Orders) * 100|
 |Repeat Customer Rate              |Customers who placed more than one order    |(Customers with More Than One Order / Total Customers) * 100|
 
+**Insert realistic sample data into your food_delivery_db database**
+
 
