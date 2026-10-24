@@ -65,4 +65,19 @@ CREATE TABLE orders (<br>
     CONSTRAINT chk_delivery_fee CHECK (delivery_fee >= 0)<br>
 );<br>
 
+**6. Order items**<br>
+CREATE TABLE order_items (<br>
+    order_item_id INT PRIMARY KEY AUTO_INCREMENT,<br>
+    order_id INT NOT NULL,<br>
+    item_id INT NOT NULL,<br>
+    quantity INT NOT NULL,<br>
+    unit_price DECIMAL(10,2) NOT NULL,<br>
+    FOREIGN KEY (order_id)<br>
+        REFERENCES orders(order_id),<br>
+    FOREIGN KEY (item_id)<br>
+        REFERENCES menu_items(item_id),<br>
+    CONSTRAINT chk_quantity CHECK (quantity > 0),<br>
+    CONSTRAINT chk_unit_price CHECK (unit_price >= 0)<br>
+);<br>
+
 
