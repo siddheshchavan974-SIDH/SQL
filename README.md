@@ -10,7 +10,8 @@ The objective of this project is to analyze food delivery operations using MySQL
 **SQL**: For filtering, joining, aggregating, and analyzing food delivery data.<br>
 **MySQL Workbench**: For writing and executing queries, managing database tables, and validating results.
 
-### Database Design [![Database Design](https://img.shields.io/badge/Database-Design-blue?style=for-the-badge)](YOUR_GITHUB_FILE_URL)<br>
+### Database Design Tables Created<br>
+
 The project uses a relational database named food_delivery_db, consisting of seven tables to manage and analyze food delivery operations. Each table stores specific information about customers, restaurants, menu items, delivery partners, orders, order items, and payments. Primary keys and foreign keys establish relationships between tables and maintain data integrity.
 
 **1. Customers Table**<br>
