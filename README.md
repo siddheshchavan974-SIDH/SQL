@@ -1,7 +1,7 @@
-# SQL
+#**Food Delivery & Restaurant Performance Analytics** -- (**Swiggy**)
 
-Food Delivery & Restaurant Performance -- ((Swiggy)
-
+**Project Objective**
+The objective of this project is to analyze food delivery operations using MySQL to evaluate restaurant performance, customer ordering behavior, revenue trends, delivery efficiency, and payment patterns. By using SQL queries, joins, aggregations, subqueries, and window functions, the project aims to identify top-performing restaurants, popular food items, high-value customers, order cancellation trends, and delivery performance. The insights will help businesses make data-driven decisions to improve customer satisfaction, optimize restaurant operations, increase revenue, and enhance overall delivery efficiency.
 
 Business problem
 A food delivery company is experiencing inconsistent delivery times, customer cancellations, and differences in restaurant performance. Management wants to understand what is happening and identify opportunities to improve customer satisfaction and business revenue.
