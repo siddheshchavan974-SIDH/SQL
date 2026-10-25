@@ -125,3 +125,67 @@ Which payment methods account for the highest transaction value?<br>
 
 The Food Delivery & Restaurant Performance Analytics project uses MySQL to analyze customer behavior, restaurant performance, revenue trends, food preferences, order cancellations, delivery operations, and payment transactions. By applying SQL techniques such as joins, aggregate functions, subqueries, CTEs, views, and window functions, the project transforms raw operational data into meaningful business insights and performance indicators.<br>
 From a business perspective, the analysis helps identify high-value customers, evaluate restaurant performance, track revenue trends, understand popular food items, and investigate operational challenges. These insights can support better customer retention strategies, improved restaurant partnerships, more efficient operations, and informed business decisions. Overall, the project demonstrates how SQL-based data analysis can help a food delivery business monitor performance, identify improvement opportunities, and support sustainable growth.
+
+# SQL
+
+# 🍔 Food Delivery & Restaurant Performance Analytics Project
+
+````text
+FOOD DELIVERY & RESTAURANT ANALYTICS PROJECT
+                    │
+                    ▼
+               SQL DATABASE
+                    │
+                    ├── Customers
+                    ├── Restaurants
+                    ├── Menu Items
+                    ├── Delivery Partners
+                    ├── Orders
+                    ├── Order Items
+                    └── Payments
+                    │
+                    ▼
+                SQL ANALYSIS
+                    │
+                    ├── SELECT & WHERE
+                    ├── GROUP BY & HAVING
+                    ├── JOINS
+                    ├── AGGREGATE FUNCTIONS
+                    ├── SUBQUERIES
+                    ├── CTEs
+                    ├── WINDOW FUNCTIONS
+                    └── VIEWS
+                    │
+                    ▼
+              BUSINESS ANALYSIS
+                    │
+                    ├── Customer Behavior
+                    ├── Restaurant Performance
+                    ├── Revenue Analysis
+                    ├── Popular Food Items
+                    ├── Order Cancellation Analysis
+                    ├── Delivery Operations
+                    ├── Payment Analysis
+                    └── Business KPIs & Insights
+                    │
+                    ▼
+              BUSINESS VALUE
+                    │
+                    ├── Improve Customer Retention
+                    ├── Monitor Restaurant Performance
+                    ├── Identify Revenue Opportunities
+                    ├── Reduce Order Cancellations
+                    ├── Optimize Delivery Operations
+                    └── Support Data-Driven Decisions
+                    │
+                    ▼
+                  POWER BI
+                    │
+                    ├── MySQL Data Connection
+                    ├── Data Cleaning
+                    ├── Data Modeling
+                    ├── Table Relationships
+                    ├── DAX Measures
+                    ├── KPI Cards
+                    ├── Charts & Visualizations
+                    └── Interactive Dashboard
