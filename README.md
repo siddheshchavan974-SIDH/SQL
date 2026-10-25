@@ -10,28 +10,29 @@ The objective of this project is to analyze food delivery operations using MySQL
 **SQL**: For filtering, joining, aggregating, and analyzing food delivery data.<br>
 **MySQL Workbench**: For writing and executing queries, managing database tables, and validating results.
 
-### Database Design
+### Database Design<br>
+The project uses a relational database named food_delivery_db, consisting of seven tables to manage and analyze food delivery operations. Each table stores specific information about customers, restaurants, menu items, delivery partners, orders, order items, and payments. Primary keys and foreign keys establish relationships between tables and maintain data integrity.
 
 **1. Customers Table**<br>
-The Customers table stores information about customers who use the food delivery platform. It contains customer details such as customer ID, customer name, city, contact information, and registration date, depending on the fields defined in the database.
+The Customers table stores information about customers who use the food delivery platform. It contains customer details such as customer ID, customer name, city, and registration/signup_date depending on the fields defined in the database.
 
 **2. Restaurants Table**<br>
-The Restaurants table contains information about restaurants registered on the platform. It includes details such as restaurant ID, restaurant name, city, cuisine type, and other restaurant-related attributes available in the database.
+The Restaurants table contains information about restaurants registered on the platform. It includes details such as restaurant ID, restaurant name, city, cuisine, opening_date DATE and other restaurant-related attributes available in the database.
 
 **3. Menu_Items Table**<br>
-The Menu_Items table stores information about food items offered by restaurants. It includes menu item ID, restaurant ID, item name, category, and item price.
+The Menu_Items table stores information about food items offered by restaurants. It includes menu item ID, restaurant ID, item name, category, item price and Availability.
 
 **4. Delivery_Partners Table**<br>
-The Delivery_Partners table stores information about delivery personnel working with the platform. It may include partner ID, partner name, city, and joining date.
+The Delivery_Partners table stores information about delivery personnel working with the platform. It includes partner ID, partner name, city, and joining date.
 
 **5. Orders Table**<br>
-The Orders table records customer orders placed through the platform. It includes order ID, customer ID, restaurant ID, delivery partner ID, order date, order status, and delivery fee, depending on the database schema.
+The Orders table records customer orders placed through the platform. It includes order ID, customer ID, restaurant ID, delivery partner ID, order date, order status, delivery fee, and cancellation_reason depending on the database schema.
 
 **6. Order_Items Table**<br>
-The Order_Items table stores details of the individual food items included in each order. It contains order ID, item ID, quantity, and unit price.
+The Order_Items table stores details of the individual food items included in each order. It contains order item ID, order ID, item ID, quantity, and unit price.
 
 **7. Payments Table**<br>
-The Payments table stores payment-related information for customer orders. It may contain payment ID, order ID, payment method, payment amount, and payment status.
+The Payments table stores payment-related information for customer orders. It contains payment ID, order ID, payment method, payment amount, and payment status.
 
 
 
