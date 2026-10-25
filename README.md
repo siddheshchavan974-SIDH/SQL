@@ -88,32 +88,13 @@ How many payments have failed?<br>
 What is the average payment amount for each payment method?<br>
 Which payment methods account for the highest transaction value?<br>
 
-
-
-
-### Business problem
-
-A food delivery company is experiencing inconsistent delivery times, customer cancellations, and differences in restaurant performance. Management wants to understand what is happening and identify opportunities to improve customer satisfaction and business revenue.
-Our Goal: Use SQL to analyse restaurant sales, delivery efficiency, customer behaviour, order cancellations, and customer ratings.
-
-### What we will analyse
-
-1.Restaurant performance<br>
-Top restaurants by revenue, order volume, and average rating.<br>
-2.Delivery performance<br>
-Average delivery time, late deliveries, and delivery-zone performance.<br>
-3.Customer behavior<br>
-Repeat customers, high-value customers, and ordering patterns.<br>
-4.Revenue and cancellations<br>
-Order revenue, cancellation rate, payment methods, and peak ordering hours.<br>
-
-### Understand the business metrics
+### Understand the business basic metrics used
 
 |            **Metric**            |            **Business meaning**            |            **Formula**            |
 |----------------------------------|--------------------------------------------|-----------------------------------|
-|        Total Orders              |            Number of orders placed         |        COUNT(Order_ID)            |
-|        Delivered Orders          |        Orders successfully delivered       |    COUNT(Order_ID) WHERE Order_Status = 'Delivered'|
-|  Total Revenue                   |Value of food sold through delivered orders |SUM(Quantity * Unit_Price) for delivered orders|
+|Total Orders                      |Number of orders placed                     |COUNT(Order_ID)            |
+|Delivered Orders                  |Orders successfully delivered               |COUNT(Order_ID) WHERE Order_Status = 'Delivered'|
+|Total Revenue                     |Value of food sold through delivered orders |SUM(Quantity * Unit_Price) for delivered orders|
 |Average Order Value (AOV)         |Food revenue divided by delivered orders    |Total Revenue / Delivered Orders    |
 |Cancellation Rate                 |Cancelled orders divided by all orders      |(Cancelled Orders / Total Orders) * 100|
 |Average Delivery Time             |Average time from order placement to delivery|AVG(Delivery_Time - Order_Time) for delivered orders|
