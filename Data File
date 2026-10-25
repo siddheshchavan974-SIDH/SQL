@@ -1,0 +1,163 @@
+Insert realistic sample data into your food_delivery_db database
+
+-- 1. Customers
+INSERT INTO customers
+(customer_id, customer_name, city, signup_date)
+VALUES
+(1, 'Aarav Sharma', 'Mumbai', '2025-01-10'),
+(2, 'Priya Patel', 'Mumbai', '2025-02-15'),
+(3, 'Rahul Verma', 'Navi Mumbai', '2025-03-20'),
+(4, 'Sneha Joshi', 'Thane', '2025-04-05'),
+(5, 'Rohan Mehta', 'Mumbai', '2025-05-12'),
+(6, 'Ananya Shah', 'Navi Mumbai', '2025-06-18'),
+(7, 'Vikram Singh', 'Thane', '2025-07-22'),
+(8, 'Neha Desai', 'Mumbai', '2025-08-01'),
+(9, 'Karan Gupta', 'Navi Mumbai', '2025-09-14'),
+(10, 'Isha Kulkarni', 'Thane', '2025-10-09');
+
+-- 2. Restaurants
+INSERT INTO restaurants
+(restaurant_id, restaurant_name, cuisine, city, opening_date)
+VALUES
+(1, 'Spice Junction', 'Indian', 'Mumbai', '2023-01-15'),
+(2, 'Pizza Corner', 'Italian', 'Mumbai', '2023-04-20'),
+(3, 'Wok Express', 'Chinese', 'Navi Mumbai', '2023-07-10'),
+(4, 'Burger Hub', 'Fast Food', 'Thane', '2024-02-05'),
+(5, 'Curry House', 'Indian', 'Navi Mumbai', '2024-05-12'),
+(6, 'Pasta Street', 'Italian', 'Thane', '2024-08-18'),
+(7, 'Tandoori Flames', 'Indian', 'Mumbai', '2024-09-10'),
+(8, 'Dragon Wok', 'Chinese', 'Thane', '2024-11-25'),
+(9, 'Urban Bites', 'Fast Food', 'Navi Mumbai', '2025-01-15'),
+(10, 'La Bella Pasta', 'Italian', 'Mumbai', '2025-03-20');
+
+-- 3. Delivery partners
+INSERT INTO delivery_partners
+(partner_id, partner_name, city, joining_date)
+VALUES
+(1, 'Amit Kumar', 'Mumbai', '2024-01-10'),
+(2, 'Suresh Patil', 'Mumbai', '2024-03-15'),
+(3, 'Imran Shaikh', 'Navi Mumbai', '2024-05-20'),
+(4, 'Ravi Yadav', 'Thane', '2024-07-01'),
+(5, 'Manoj More', 'Navi Mumbai', '2024-09-12'),
+(6, 'Rahul Sharma', 'Mumbai', '2024-10-05'),
+(7, 'Vikas Jadhav', 'Thane', '2024-11-18'),
+(8, 'Arjun Singh', 'Navi Mumbai', '2025-01-08'),
+(9, 'Karan Desai', 'Mumbai', '2025-02-14'),
+(10, 'Nilesh Pawar', 'Thane', '2025-04-22');
+
+-- 4. Insert menu items
+INSERT INTO menu_items
+(item_id, restaurant_id, item_name, category, price, is_available)
+VALUES
+(1, 1, 'Paneer Butter Masala', 'Main Course', 280, TRUE),
+(2, 1, 'Veg Biryani', 'Rice', 220, TRUE),
+(3, 2, 'Margherita Pizza', 'Pizza', 250, TRUE),
+(4, 2, 'Farmhouse Pizza', 'Pizza', 380, TRUE),
+(5, 3, 'Veg Hakka Noodles', 'Noodles', 190, TRUE),
+(6, 3, 'Manchurian', 'Starter', 210, TRUE),
+(7, 4, 'Classic Burger', 'Burger', 150, TRUE),
+(8, 4, 'Cheese Burger', 'Burger', 200, TRUE),
+(9, 5, 'Chicken Biryani', 'Rice', 320, TRUE),
+(10, 5, 'Dal Tadka', 'Main Course', 180, TRUE),
+(11, 6, 'White Sauce Pasta', 'Pasta', 270, TRUE),
+(12, 6, 'Red Sauce Pasta', 'Pasta', 240, TRUE);
+
+-- 5. Insert orders
+
+INSERT INTO orders
+(order_id, customer_id, restaurant_id, partner_id,
+ order_time, promised_delivery_time, actual_delivery_time,
+ order_status, delivery_fee, cancellation_reason)
+VALUES
+(1, 1, 1, 1, '2026-01-05 12:00:00',
+ '2026-01-05 12:45:00', '2026-01-05 12:40:00',
+ 'Delivered', 30, NULL),
+
+(2, 2, 2, 2, '2026-01-05 19:00:00',
+ '2026-01-05 19:45:00', '2026-01-05 20:00:00',
+ 'Delivered', 40, NULL),
+
+(3, 3, 3, 3, '2026-01-06 13:00:00',
+ '2026-01-06 13:40:00', '2026-01-06 13:35:00',
+ 'Delivered', 25, NULL),
+
+(4, 1, 5, 3, '2026-01-07 20:00:00',
+ '2026-01-07 20:45:00', '2026-01-07 21:10:00',
+ 'Delivered', 35, NULL),
+
+(5, 4, 4, 4, '2026-01-08 14:00:00',
+ '2026-01-08 14:40:00', '2026-01-08 14:30:00',
+ 'Delivered', 20, NULL),
+
+(6, 5, 1, 1, '2026-01-09 12:30:00',
+ '2026-01-09 13:15:00', '2026-01-09 13:10:00',
+ 'Delivered', 30, NULL),
+
+(7, 6, 6, 4, '2026-01-10 19:30:00',
+ '2026-01-10 20:15:00', '2026-01-10 20:35:00',
+ 'Delivered', 25, NULL),
+
+(8, 7, 2, NULL, '2026-01-11 20:00:00',
+ '2026-01-11 20:45:00', NULL,
+ 'Cancelled', 40, 'Customer cancelled'),
+
+(9, 8, 3, 5, '2026-01-12 13:00:00',
+ '2026-01-12 13:40:00', '2026-01-12 13:30:00',
+ 'Delivered', 25, NULL),
+
+(10, 9, 5, NULL, '2026-01-13 20:00:00',
+ '2026-01-13 20:45:00', NULL,
+ 'Cancelled', 35, 'Restaurant unable to fulfill'),
+
+(11, 2, 1, 2, '2026-01-14 12:15:00',
+ '2026-01-14 13:00:00', '2026-01-14 13:20:00',
+ 'Delivered', 30, NULL),
+
+(12, 1, 2, 1, '2026-01-15 19:00:00',
+ '2026-01-15 19:45:00', '2026-01-15 19:40:00',
+ 'Delivered', 40, NULL);
+
+-- 6. Insert order items
+
+INSERT INTO order_items
+(order_item_id, order_id, item_id, quantity, unit_price)
+VALUES
+(1, 1, 1, 1, 280),
+(2, 1, 2, 1, 220),
+(3, 2, 3, 2, 250),
+(4, 3, 5, 1, 190),
+(5, 3, 6, 1, 210),
+(6, 4, 9, 1, 320),
+(7, 4, 10, 1, 180),
+(8, 5, 7, 2, 150),
+(9, 6, 1, 1, 280),
+(10, 6, 2, 2, 220),
+(11, 7, 11, 1, 270),
+(12, 8, 4, 1, 380),
+(13, 9, 5, 2, 190),
+(14, 10, 9, 1, 320),
+(15, 11, 1, 1, 280),
+(16, 11, 10, 1, 180),
+(17, 12, 3, 1, 250),
+(18, 12, 4, 1, 380);
+
+-- 7. Insert payment records
+
+
+INSERT INTO payments
+(payment_id, order_id, payment_method,
+ payment_amount, payment_status)
+VALUES
+(1, 1, 'UPI', 530, 'Successful'),
+(2, 2, 'Credit Card', 540, 'Successful'),
+(3, 3, 'UPI', 425, 'Successful'),
+(4, 4, 'Cash', 535, 'Successful'),
+(5, 5, 'UPI', 320, 'Successful'),
+(6, 6, 'Credit Card', 750, 'Successful'),
+(7, 7, 'UPI', 295, 'Successful'),
+(8, 8, 'UPI', 420, 'Refunded'),
+(9, 9, 'Cash', 405, 'Successful'),
+(10, 10, 'Credit Card', 0, 'Failed'),
+(11, 11, 'UPI', 490, 'Successful'),
+(12, 12, 'Credit Card', 670, 'Successful');
+
