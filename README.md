@@ -10,13 +10,13 @@ Our objective: Use SQL to analyse restaurant sales, delivery efficiency, custome
 What we will analyse
 
 1.Restaurant performance
-Top restaurants by revenue, order volume, and average rating.
+Top restaurants by revenue, order volume, and average rating.<br>
 2.Delivery performance
-Average delivery time, late deliveries, and delivery-zone performance.
+Average delivery time, late deliveries, and delivery-zone performance.<br>
 3.Customer behavior
-Repeat customers, high-value customers, and ordering patterns.
+Repeat customers, high-value customers, and ordering patterns.<br>
 4.Revenue and cancellations
-Order revenue, cancellation rate, payment methods, and peak ordering hours.
+Order revenue, cancellation rate, payment methods, and peak ordering hours.<br>
 
 **Understand the business metrics**
 
