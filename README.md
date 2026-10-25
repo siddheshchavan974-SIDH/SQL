@@ -108,7 +108,6 @@ Which payment methods account for the highest transaction value?<br>
 6. Improve Delivery Operations: Review delivery partner workloads and, when delivery-time data is available, identify delays and opportunities to improve delivery efficiency.<br>
 7. Strengthen Payment Monitoring: Monitor failed transactions, investigate payment discrepancies, and use successful transaction data to understand customer payment preferences.<br>
 
-
 ### Understand the business Metrics/KPI used
 
 |            **Metric**            |            **Business meaning**            |            **Formula**            |
@@ -122,3 +121,7 @@ Which payment methods account for the highest transaction value?<br>
 |Late Delivery Rate                |Delivered orders arriving after the promised time|(Late Delivered Orders / Total Delivered Orders) * 100|
 |Repeat Customer Rate              |Customers who placed more than one order    |(Customers with More Than One Order / Total Customers) * 100|
 
+### Project Conclusion
+
+The Food Delivery & Restaurant Performance Analytics project uses MySQL to analyze customer behavior, restaurant performance, revenue trends, food preferences, order cancellations, delivery operations, and payment transactions. By applying SQL techniques such as joins, aggregate functions, subqueries, CTEs, views, and window functions, the project transforms raw operational data into meaningful business insights and performance indicators.<br>
+From a business perspective, the analysis helps identify high-value customers, evaluate restaurant performance, track revenue trends, understand popular food items, and investigate operational challenges. These insights can support better customer retention strategies, improved restaurant partnerships, more efficient operations, and informed business decisions. Overall, the project demonstrates how SQL-based data analysis can help a food delivery business monitor performance, identify improvement opportunities, and support sustainable growth.
