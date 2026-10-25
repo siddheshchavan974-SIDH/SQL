@@ -1,5 +1,4 @@
-
-##Food Delivery & Restaurant Performance Analytics -- (Swiggy)
+#Food Delivery & Restaurant Performance Analytics -- (Swiggy)
 
 **Project Objective**
 
