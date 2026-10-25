@@ -129,6 +129,7 @@ From a business perspective, the analysis helps identify high-value customers, e
 # SQL
 
 # 🍔 Food Delivery & Restaurant Performance Analytics Project
+[SQL Digram](https://github.com/siddheshchavan974-SIDH/SQL/blob/main/SQL%20Digram.png)
 
 ````text
 FOOD DELIVERY & RESTAURANT ANALYTICS PROJECT
