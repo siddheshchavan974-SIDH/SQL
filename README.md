@@ -34,6 +34,59 @@ The Order_Items table stores details of the individual food items included in ea
 **7. Payments Table**<br>
 The Payments table stores payment-related information for customer orders. It contains payment ID, order ID, payment method, payment amount, and payment status.
 
+### Database Relationships
+
+One customer can place multiple orders.<br>
+One restaurant can receive multiple orders and offer multiple menu items.<br>
+One order can contain multiple order items.<br>
+One delivery partner can deliver multiple orders.<br>
+Each payment record is linked to an order.<br>
+
+### Business Questions to Be Answered
+
+The project aims to answer important business questions related to customer behavior, restaurant performance, sales revenue, order management, and delivery operations. SQL queries will be used to extract meaningful insights from the database and support data-driven decision-making.
+
+**A. Customer Analysis** <br>
+Who are the top 10 customers based on total spending?<br>
+Which cities have the highest number of customers?<br>
+How many orders does each customer place?<br>
+Who are the customers with the highest number of orders?<br>
+What is the average spending per customer?<br>
+
+**B. Restaurant Performance Analysis**<br>
+Which are the top 10 restaurants based on total sales revenue?<br>
+Which restaurants receive the highest number of orders?<br>
+Which restaurants have the highest order cancellation rates?<br>
+Which cities have the highest restaurant sales?<br>
+Which restaurants generate the highest average order value?<br>
+
+C. Sales and Revenue Analysis<br>
+What is the total revenue generated from food orders?<br>
+What are the monthly and quarterly sales trends?<br>
+Which month generates the highest sales revenue?<br>
+What is the average order value (AOV)?<br>
+What percentage of orders are successfully delivered versus cancelled?<br>
+
+D. Food Item Analysis<br>
+Which are the top 10 best-selling food items by quantity?<br>
+Which food categories generate the highest revenue?<br>
+Which menu items contribute the most to total sales?<br>
+What is the average price of menu items across restaurants?<br>
+Which restaurants offer the highest number of menu items?<br>
+
+E. Order and Delivery Analysis<br>
+What is the total number of orders placed?<br>
+How many orders are delivered, cancelled, or still in progress?<br>
+Which delivery partners are associated with the highest number of orders?<br>
+Which cities have the highest order volumes?<br>
+What is the distribution of orders by status?<br>
+
+F. Payment Analysis<br>
+Which payment methods are used most frequently?<br>
+What is the total value of successful payments?<br>
+How many payments have failed?<br>
+What is the average payment amount for each payment method?<br>
+Which payment methods account for the highest transaction value?<br>
 
 
 
