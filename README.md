@@ -4,12 +4,6 @@
 
 The objective of this project is to analyze food delivery operations using MySQL to evaluate restaurant performance, customer ordering behavior, revenue trends, delivery efficiency, and payment patterns. By using SQL queries, joins, aggregations, subqueries, and window functions, the project aims to identify top-performing restaurants, popular food items, high-value customers, order cancellation trends, and delivery performance. The insights will help businesses make data-driven decisions to improve customer satisfaction, optimize restaurant operations, increase revenue, and enhance overall delivery efficiency.
 
-### Tools & Technologies Used
-
-**MySQL**: For database creation, data storage, data manipulation, and business analysis using SQL queries.<br>
-**SQL**: For filtering, joining, aggregating, and analyzing food delivery data.<br>
-**MySQL Workbench**: For writing and executing queries, managing database tables, and validating results.
-
 ### Database Design [Tables Created](https://github.com/siddheshchavan974-SIDH/SQL/blob/main/Tables%20Created)<br>
 The project uses a relational database named food_delivery_db, consisting of seven tables to manage and analyze food delivery operations. Each table stores specific information about customers, restaurants, menu items, delivery partners, orders, order items, and payments. Primary keys and foreign keys establish relationships between tables and maintain data integrity.
 
