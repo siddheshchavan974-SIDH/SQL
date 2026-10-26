@@ -42,7 +42,7 @@ One order can contain multiple order items.<br>
 One delivery partner can deliver multiple orders.<br>
 Each payment record is linked to an order.<br>
 
-### Business Questions to Be Answered
+### Business Questions to Be Answered [Queries](https://github.com/siddheshchavan974-SIDH/SQL/blob/main/Queries)
 
 The project aims to answer important business questions related to customer behavior, restaurant performance, sales revenue, order management, and delivery operations. SQL queries will be used to extract meaningful insights from the database and support data-driven decision-making.
 
