@@ -2,13 +2,14 @@
 Queries
 
 A. Customer Analysis
-1.Who are the top 10 customers based on total spending?
-2.Which cities have the highest number of customers?
-3.How many orders does each customer place?
-4.Who are the customers with the highest number of orders?
-5.What is the average spending per customer?
+Who are the top 10 customers based on total spending?
+Which cities have the highest number of customers?
+How many orders does each customer place?
+Who are the customers with the highest number of orders?
+What is the average spending per customer?
 
 
+```text
 select c.customer_id,
 c.customer_name,
 c.city,
@@ -25,3 +26,17 @@ c.customer_name,
 c.city
 order by Total_Spending desc
 limit 10;
+
+Output
+
+customer_id | customer_name| city| Total_Spending
+1	  |Aarav Sharma	|Mumbai	|1630.00
+78	|Janvi Sinha	|Navi Mumbai	|1220.00
+38	|Ayesha Khan	|Mumbai	|1180.00
+60	|Trisha Desai	|Navi Mumbai	|1100.00
+80	|Aarohi Bose	|Mumbai	|1030.00
+40	|Palak Agarwal|	Thane	|1030.00
+33	|Dev Malhotra	|Mumbai	|1010.00
+2	  |Priya Patel	|Mumbai	|960.00
+93	|Rajat Choudhary	|Navi Mumbai	|940.00
+53	|Chirag Mehta	|Mumbai	|940.00
