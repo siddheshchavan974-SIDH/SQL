@@ -91,22 +91,22 @@ F. Payment Analysis<br>
 ### Key Insights and Business Recommendations
 
 **Key Insights**<br>
-1. Customer Behavior: Identify high-value customers, repeat customers, and customers who have registered but never placed an order.<br>
-2. Restaurant Performance: Evaluate restaurants based on order volume, delivered food sales, and cancellation rates to identify strong performers and areas requiring improvement.<br>
-3. Revenue Trends: Analyze monthly and city-wise food sales to identify growth patterns, seasonal changes, and high-performing markets.<br>
-4. Food Item Preferences: Identify best-selling food items and popular food categories to understand customer preferences and support menu optimization.<br>
-5. Order Management: Examine order status distribution and cancellation rates to identify potential issues affecting order fulfillment.<br>
-6. Delivery Operations: Analyze delivery partner workloads and order distribution to understand operational demand and resource allocation.<br>
-7. Payment Trends: Evaluate payment methods, successful transaction amounts, and failed payments to understand payment preferences and potential transaction issues.<br>
+* Customer Behavior: Identify high-value customers, repeat customers, and customers who have registered but never placed an order.<br>
+* Restaurant Performance: Evaluate restaurants based on order volume, delivered food sales, and cancellation rates to identify strong performers and areas requiring improvement.<br>
+* Revenue Trends: Analyze monthly and city-wise food sales to identify growth patterns, seasonal changes, and high-performing markets.<br>
+* Food Item Preferences: Identify best-selling food items and popular food categories to understand customer preferences and support menu optimization.<br>
+* Order Management: Examine order status distribution and cancellation rates to identify potential issues affecting order fulfillment.<br>
+* Delivery Operations: Analyze delivery partner workloads and order distribution to understand operational demand and resource allocation.<br>
+* Payment Trends: Evaluate payment methods, successful transaction amounts, and failed payments to understand payment preferences and potential transaction issues.<br>
 
 **Business Recommendations**<br>
-1. Improve Customer Retention: Introduce loyalty rewards, personalized promotions, and targeted offers for repeat and high-value customers.<br>
-2. Support Restaurant Growth: Work with restaurants that demonstrate strong performance and investigate the causes of low sales or high cancellation rates.<br>
-3. Optimize Revenue Generation: Use monthly and city-wise revenue trends to plan marketing campaigns and identify opportunities for expansion.<br>
-4. Optimize Menu Strategy: Promote popular food items, review underperforming menu categories, and help restaurant partners make informed menu decisions.<br>
-5. Reduce Order Cancellations: Investigate cancellation reasons, food availability, preparation delays, and order-handling processes before implementing corrective measures.<br>
-6. Improve Delivery Operations: Review delivery partner workloads and, when delivery-time data is available, identify delays and opportunities to improve delivery efficiency.<br>
-7. Strengthen Payment Monitoring: Monitor failed transactions, investigate payment discrepancies, and use successful transaction data to understand customer payment preferences.<br>
+* Improve Customer Retention: Introduce loyalty rewards, personalized promotions, and targeted offers for repeat and high-value customers.<br>
+* Support Restaurant Growth: Work with restaurants that demonstrate strong performance and investigate the causes of low sales or high cancellation rates.<br>
+* Optimize Revenue Generation: Use monthly and city-wise revenue trends to plan marketing campaigns and identify opportunities for expansion.<br>
+* Optimize Menu Strategy: Promote popular food items, review underperforming menu categories, and help restaurant partners make informed menu decisions.<br>
+* Reduce Order Cancellations: Investigate cancellation reasons, food availability, preparation delays, and order-handling processes before implementing corrective measures.<br>
+* Improve Delivery Operations: Review delivery partner workloads and, when delivery-time data is available, identify delays and opportunities to improve delivery efficiency.<br>
+* Strengthen Payment Monitoring: Monitor failed transactions, investigate payment discrepancies, and use successful transaction data to understand customer payment preferences.<br>
 
 ### Understand the business Metrics/KPI used
 
