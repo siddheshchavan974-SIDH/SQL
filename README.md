@@ -47,46 +47,46 @@ Each payment record is linked to an order.<br>
 The project aims to answer important business questions related to customer behavior, restaurant performance, sales revenue, order management, and delivery operations. SQL queries will be used to extract meaningful insights from the database and support data-driven decision-making.
 
 **A. Customer Analysis** <br>
-Who are the top 10 customers based on total spending?<br>
-Which cities have the highest number of customers?<br>
-How many orders does each customer place?<br>
-Who are the customers with the highest number of orders?<br>
-What is the average spending per customer?<br>
+* Display all customers.<br>
+* Display customer names and their cities.<br>
+* Find all unique customer cities.<br>
+* Which cities have the highest number of customers.<br>
+* Who are the top 10 customers based on total food spending?<br>
 
 **B. Restaurant Performance Analysis**<br>
-Which are the top 10 restaurants based on total sales revenue?<br>
-Which restaurants receive the highest number of orders?<br>
-Which restaurants have the highest order cancellation rates?<br>
-Which cities have the highest restaurant sales?<br>
-Which restaurants generate the highest average order value?<br>
+* Display all restaurant names and their cuisines.<br>
+* Find restaurants located in Mumbai.<br>
+* Find restaurants serving Indian or Italian cuisine.<br>
+* Count the number of restaurants in each city.<br>
+* Which restaurants receive the highest number of orders?<br>
 
 C. Sales and Revenue Analysis<br>
-What is the total revenue generated from food orders?<br>
-What are the monthly and quarterly sales trends?<br>
-Which month generates the highest sales revenue?<br>
-What is the average order value (AOV)?<br>
-What percentage of orders are successfully delivered versus cancelled?<br>
+* Calculate the total number of orders placed.<br>
+* Calculate the total food sales from delivered orders.<br>
+* Calculate the average menu item price.<br>
+* Find the highest and lowest menu item prices.<br>
+* Calculate monthly order counts.<br>
 
 D. Food Item Analysis<br>
-Which are the top 10 best-selling food items by quantity?<br>
-Which food categories generate the highest revenue?<br>
-Which menu items contribute the most to total sales?<br>
-What is the average price of menu items across restaurants?<br>
-Which restaurants offer the highest number of menu items?<br>
+* Display all available menu items.<br>
+* Find menu items priced above ₹200.<br>
+* Find menu items whose names start with the letter 'C'.<br>
+* Count the number of menu items in each category.<br>
+* Find the average menu item price for each category.<br>
 
 E. Order and Delivery Analysis<br>
-What is the total number of orders placed?<br>
-How many orders are delivered, cancelled, or still in progress?<br>
-Which delivery partners are associated with the highest number of orders?<br>
-Which cities have the highest order volumes?<br>
-What is the distribution of orders by status?<br>
+* Display all orders and their statuses.<br>
+* Find all cancelled orders.<br>
+* Find orders that do not have an assigned delivery partner.<br>
+* Count orders by their status.<br>
+* Classify orders as Completed, Cancelled, or In Progress.<br>
 
 F. Payment Analysis<br>
-Which payment methods are used most frequently?<br>
-What is the total value of successful payments?<br>
-How many payments have failed?<br>
-What is the average payment amount for each payment method?<br>
-Which payment methods account for the highest transaction value?<br>
+* Find all successful payments.<br>
+* Count the number of payments for each payment method.<br>
+* Calculate the total value of successful payments.<br>
+* Calculate the average payment amount for each payment method.<br>
+* Which payment methods account for the highest successful transaction value?<br>
 
 ### Key Insights and Business Recommendations
 
